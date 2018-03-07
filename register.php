@@ -41,7 +41,7 @@ if(isset($_POST['register_btn'])){
   </div> 
 
 <div class="header">
-    <h1>REGISTER AIR MAharashtra</h1>
+    <h1>REGISTER</h1>
     </div>
      <?php 
     if(isset($_SESSION['message'])){
