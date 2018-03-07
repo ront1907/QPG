@@ -25,7 +25,7 @@ if(isset($_POST['register_btn'])){
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Registration</title>
+    <title>Registration QPG</title>
     <link rel="stylesheet" type="text/css" href="style1.css">
 
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -41,7 +41,7 @@ if(isset($_POST['register_btn'])){
   </div> 
 
 <div class="header">
-    <h1>REGISTER AIR MAharashtra</h1>
+    <h1>REGISTER</h1>
     </div>
      <?php 
     if(isset($_SESSION['message'])){
@@ -62,7 +62,7 @@ if(isset($_POST['register_btn'])){
         </tr>
     <tr>
         <td>Password:</td>
-        <td><input type="password" name="password" class="textInput"</td>
+        <td><input type="password" name="PWD" class="textPassword"</td>
         </tr>
         <tr>
         <td>Confirm Password:</td>
